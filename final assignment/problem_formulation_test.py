@@ -305,14 +305,16 @@ from ema_workbench import (MultiprocessingEvaluator, ema_logging,
 ema_logging.log_to_stderr(ema_logging.INFO)
 
 with SequentialEvaluator(dike_model) as evaluator:
-    results = evaluator.perform_experiments(scenarios=50, policies=2)
+    results = evaluator.perform_experiments(scenarios=5, policies=2)
 
 ###########################################
 
 # save outcomes somewhere
 experiments, outcomes = results
 #outcomes_csv = pd.DataFrame.from_dict(outcomes)
-results.to_csv('../data/test_data.csv', index=False)
+
+experiments.to_csv('./data/test_experiments.csv', index=False)
+pd.DataFrame.from_dict(outcomes).to_csv('./data/test_outcomes.csv', index=False)
 
 
 if __name__ == '__main__':

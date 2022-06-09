@@ -1,0 +1,1365 @@
+[MainProcess/INFO] pool started with 12 workers
+[MainProcess/INFO] performing 80 scenarios * 1 policies * 1 model(s) = 80 experiments
+  1%|▌                                          | 1/80 [00:04<05:39,  4.29s/it]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 16%|██████▊                                   | 13/80 [00:07<00:30,  2.20it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 18%|███████▎                                  | 14/80 [00:07<00:28,  2.35it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 20%|████████▍                                 | 16/80 [00:07<00:22,  2.82it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 21%|████████▉                                 | 17/80 [00:08<00:24,  2.61it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 24%|█████████▉                                | 19/80 [00:08<00:19,  3.20it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 26%|███████████                               | 21/80 [00:08<00:14,  4.04it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 29%|████████████                              | 23/80 [00:08<00:11,  4.99it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 31%|█████████████▏                            | 25/80 [00:10<00:24,  2.23it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 34%|██████████████▏                           | 27/80 [00:11<00:19,  2.71it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 35%|██████████████▋                           | 28/80 [00:11<00:17,  2.92it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 36%|███████████████▏                          | 29/80 [00:11<00:18,  2.76it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 39%|████████████████▎                         | 31/80 [00:12<00:17,  2.81it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 42%|█████████████████▊                        | 34/80 [00:12<00:11,  3.92it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 44%|██████████████████▍                       | 35/80 [00:12<00:10,  4.30it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 45%|██████████████████▉                       | 36/80 [00:13<00:09,  4.53it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 46%|███████████████████▍                      | 37/80 [00:14<00:20,  2.12it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 49%|████████████████████▍                     | 39/80 [00:14<00:14,  2.78it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 50%|█████████████████████                     | 40/80 [00:15<00:13,  2.95it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 51%|█████████████████████▌                    | 41/80 [00:15<00:14,  2.78it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 54%|██████████████████████▌                   | 43/80 [00:15<00:10,  3.66it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 56%|███████████████████████▋                  | 45/80 [00:16<00:12,  2.75it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 57%|████████████████████████▏                 | 46/80 [00:17<00:12,  2.62it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 60%|█████████████████████████▏                | 48/80 [00:17<00:09,  3.49it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 61%|█████████████████████████▋                | 49/80 [00:17<00:09,  3.19it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 62%|██████████████████████████▎               | 50/80 [00:18<00:08,  3.65it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 64%|██████████████████████████▊               | 51/80 [00:18<00:08,  3.30it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 65%|███████████████████████████▎              | 52/80 [00:19<00:11,  2.40it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 66%|███████████████████████████▊              | 53/80 [00:19<00:11,  2.34it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 70%|█████████████████████████████▍            | 56/80 [00:19<00:05,  4.33it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 71%|█████████████████████████████▉            | 57/80 [00:20<00:07,  2.94it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 72%|██████████████████████████████▍           | 58/80 [00:21<00:10,  2.04it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 75%|███████████████████████████████▌          | 60/80 [00:21<00:07,  2.81it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 79%|█████████████████████████████████         | 63/80 [00:22<00:04,  3.91it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 80%|█████████████████████████████████▌        | 64/80 [00:23<00:05,  2.69it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 82%|██████████████████████████████████▋       | 66/80 [00:23<00:04,  2.97it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 85%|███████████████████████████████████▋      | 68/80 [00:24<00:03,  3.77it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 86%|████████████████████████████████████▏     | 69/80 [00:24<00:03,  3.17it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 88%|████████████████████████████████████▊     | 70/80 [00:24<00:03,  2.92it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 89%|█████████████████████████████████████▎    | 71/80 [00:25<00:02,  3.23it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 90%|█████████████████████████████████████▊    | 72/80 [00:25<00:02,  2.83it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 92%|██████████████████████████████████████▊   | 74/80 [00:25<00:01,  4.14it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 94%|███████████████████████████████████████▍  | 75/80 [00:26<00:01,  3.77it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 96%|████████████████████████████████████████▍ | 77/80 [00:26<00:00,  3.64it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+ 98%|████████████████████████████████████████▉ | 78/80 [00:27<00:00,  3.76it/s]Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+100%|██████████████████████████████████████████| 80/80 [00:27<00:00,  2.95it/s]
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 244, in _store_outcomes
+    self.results[outcome][case_id,] = outcome_res
+KeyError: 'Dike Investment Costs'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\ema_multiprocessing.py", line 253, in run
+    self.callback(*result.get())
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 280, in __call__
+    self._store_outcomes(experiment.experiment_id, outcomes)
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 257, in _store_outcomes
+    self.results[outcome] = self._setup_outcomes_array(
+  File "C:\Users\rhys_\anaconda3\lib\site-packages\ema_workbench\em_framework\callbacks.py", line 287, in _setup_outcomes_array
+    array[:] = np.nan
+ValueError: cannot convert float NaN to integer
+[MainProcess/INFO] experiments finished
+[MainProcess/INFO] terminating pool

@@ -1,0 +1,4 @@
+[MainProcess/INFO] pool started with 12 workers
+10061it [44:17:47, 15.85s/it]                                                  
+[MainProcess/INFO] optimization completed, found 1 solutions
+[MainProcess/INFO] terminating pool

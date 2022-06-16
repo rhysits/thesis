@@ -36,7 +36,9 @@ To run the model processes, navigate to the following Jupyter Notebook files in 
 
 
 * [04_Directed_Search_Scoring.ipynb](04_Directed_Search_Scoring.ipynb): Directed Search
-  
+
+## Output
+
 The outputs from the model can be found in the [directed_search](output/directed_search/), [open_exploration](output/open_exploration/), and [optimization_moro](output/optimization_moro/) folders in the [output](output) directory.
 
 ## Data

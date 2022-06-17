@@ -14,7 +14,7 @@ Created by: EPA1361 Group 7
 
 ## Introduction
 
-The report can be found at [EPA1361_G1_Report.pdf](report/EPA1361_G1_Report.pdf) in the [report](report) directory.
+The report can be found at [EPA1361_MBDM_G1_Report.pdf](report/EPA1361_MBDM_G1_Report.pdf) in the [report](report) directory.
 
 ## How to Use
 

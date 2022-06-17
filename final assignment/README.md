@@ -8,8 +8,8 @@ Created by: EPA1361 Group 7
 | Michiel van Dalsum | 4647556        |
 |     Rhys Evans     | 5633273        |
 |    Morris Huang    | 5487781        |
-|   Matvei Isaenko   | 5618053       |
-|    Bo de Vries     | 4728823       |
+|   Matvei Isaenko   | 5618053        |
+|    Bo de Vries     | 4728823        |
 
 
 ## Introduction
@@ -30,13 +30,13 @@ To run the model processes, navigate to the following Jupyter Notebook files in 
 
 
 * [02_Directed_Search_Merged_Outputs.ipynb](02_Directed_Search_Merged_Outputs.ipynb): Directed Search outputs from baseline, worstcase, and bestcase merged
-
+In this file we perform a large number of scenarios on the policies obtained from the previous step.
 
 * [03_Directed_Search_Scoring_Filtering.ipynb](03_Directed_Search_Scoring_Filtering.ipynb): Directed Search
-
+This file merges the outputs from the previous baseline, worst case and best case runs and does rudiminary visualisations on them.
 
 * [04_Directed_Search_Scoring.ipynb](04_Directed_Search_Scoring.ipynb): Directed Search
-
+In this final file we calculate the different robustness scores to select a final policy set.
 ## Output
 
 The outputs from the model can be found in the [directed_search](output/directed_search/), [open_exploration](output/open_exploration/), and [optimization_moro](output/optimization_moro/) folders in the [output](output) directory.

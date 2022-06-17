@@ -19,15 +19,11 @@ The report can be found at [EPA1361_G1_Report.pdf](report/EPA1361_G1_Report.pdf)
 ## How to Use
 
 To run the model processes, navigate to the following Jupyter Notebook files in the [final assignment](../final_assignment) directory:
-* [00_Open_Exploration.ipynb](00_Open_Exploration.ipynb): Open Exploration
+* [00_0_Open_Exploration_Scenarios.ipynb](00_0_Open_Exploration_Scenarios.ipynb): This file conducts open exploration across scenarios given a policy where no levers are applied.
+* 
+* [00_1_Open_Exploration_Levers.ipynb](00_0_Open_Exploration_Levers.ipynb): This file conducts open exploration across the levers given a baseline scenario. The baseline scenario is defined as the average of the range for each uncertainty.
 
-
-* [01_0_Directed_Search_Baseline.ipynb](01_0_Directed_Search_Baseline.ipynb): Directed Search Baseline
-
-* [01_1_Directed_Search_Worsecase.ipynb](01_1_Directed_Search_Worsecase.ipynb): Directed Search Worstcase
-
-* [01_2_Directed_Search_Bestcase.ipynb](01_2_Directed_Search_Bestcase.ipynb): Directed Search Bestcase
-
+* [01_0_Directed_Search.ipynb](01_0_Directed_Search.ipynb): This file conducts a directed search across policies given a scenario. Three scenarios are defined. The scenario is determined with the case number.
 
 * [02_Directed_Search_Merged_Outputs.ipynb](02_Directed_Search_Merged_Outputs.ipynb): Directed Search outputs from baseline, worstcase, and bestcase merged
 In this file we perform a large number of scenarios on the policies obtained from the previous step.
